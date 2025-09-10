@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/selenium-python-demo.git'
+                git 'https://github.com/anayk13/exp4devops.git'
             }
         }
         stage('Setup Environment') {
